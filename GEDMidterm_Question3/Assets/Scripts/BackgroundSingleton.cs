@@ -47,7 +47,7 @@ public class BackgroundSingleton: GenericSingletonClass<BackgroundSingleton>
     void Update()
     {
 
-        //CODE IS CALLED ONCE AND DOES NOT INCREMENT. So It should show 6501 then finish.
+        //Singleton code works. So It should show 6501 then finish.
         int score = 6500;
         
 
